@@ -1,0 +1,34 @@
+{
+  "name": "mean_template",
+  "version": "1.0.0",
+  "description": "mean authentication template",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodejs app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayurxy/mean_template.git"
+  },
+      
+  "dependencies": {
+      
+      "express":"*",
+      "mongoose": "*",
+      "bcryptjs":"*",
+      "cors":"*",
+      "jsonwebtoken" :"*",
+      "body-parser":"*",
+      "passport":"*",
+      "passport-jwt":"*"
+      
+  } ,
+    
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayurxy/mean_template/issues"
+  },
+  "homepage": "https://github.com/mayurxy/mean_template#readme"
+}
